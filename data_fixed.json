@@ -1,0 +1,5343 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "myapp",
+    "model": "categories"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "myapp",
+    "model": "products"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "myapp",
+    "model": "cart"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "myapp",
+    "model": "customuser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "myapp",
+    "model": "orders"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ci43nkskj6cp3iu6yn3a4e23yhpqwrqn",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCcwgAu3fcMzQxMpGogKe3KeHdt0oVu_3vvv9RE21qmrcsyzVldFKjT78aUHlJ3kO9Ub02nVtdlZr0r-qBdjy3L83q4fweFevnWzlgHwNZ7dIAZow3OW8YIJgQjFJKkDA5zjMnwgAYGZGAUfxbyFtT7A6ITNo4:1tduNf:Zl7AKGrOJ0z04NLxXGAiVpBdjlq97a_7zAI2sh46gyY",
+    "expire_date": "2025-02-14T17:00:35.559Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ct1jy9wh9gd5pur8xvnzvx4ceszvwsdj",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyF0ESoevfcbyO6ylaqhSWlPxn-XJj3ocd68mbeKuK05blWWOCV1VaBOv4yQn1L2Ij2w3GfNc1mXifSu6KOtepiTvG6H-3eQsea2ZhAfJBjLvk8hoDXOUCc9JOPPNjnftSxm9HZES0COuVG6gAmWEUh9vtV_N7s:1te8q8:2_dGWR14WbRsI6eCC6xgDcavEv7pYUwgqNS1TLWdtJo",
+    "expire_date": "2025-02-15T08:26:56.421Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "egdz4izhpcph1my9wtyfcpgwqjlkgvys",
+  "fields": {
+    "session_data": "eyJvd25lcl9sb2dnZWRfaW4iOnRydWV9:1tkyEy:mwsiSVTDqP86ssUk5kBDa6gXFQ9gcxEwOvBWr0onHso",
+    "expire_date": "2025-03-06T04:32:48.767Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "f3ux9wa3aflvs0awo1unzasn3j9rjqfl",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP-FsyHLs61H7_2GZpcFqRpISnsy_rsh6UGvM5N5iwWPPS9Hi9uysrgKJS6_jDA8Y-mCH1juVYZa9m0l2RN52ibnyvF1O9u_QcaW-5YcABGwcoNLJo2DQvScnPekNAEmTdZ4CgCcIhs9oVUw-gmTVcFH8fkC5Lk4DQ:1tbEaO:pif6oALScyiXS3ieBCaW5UHrSmIAfzXHbG4iEYEt-i4",
+    "expire_date": "2025-02-07T07:58:40.369Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "if1k73kod9prq4nbeim77vh1rlvn1unz",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlmxnWTXKek5g7X2bj6AbCkfUSDuTiKlgPbNvHmrQNs6hm2ROUysOmVqdfkdI6WH5IPwnfJQdCp5naeoD0WfdNG3wvK8nu5fYKRl3N_gE9rWgmOR3mJMDZgeK4o1Ok9MQmitB_IQgQwhSu2gMZW4tmE2cY-WV957zzIMwmHKqlvnTT5fdzFAsQ:1tl6Cp:P5XSgn7KD_EwZhQrZDMxj_D7GgI08SV1SiPbRF3UMAs",
+    "expire_date": "2025-03-06T13:03:07.681Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jcpfchrgn4uuzuzn2wkwotl23ylzhjvp",
+  "fields": {
+    "session_data": ".eJxVjE0OgyAYBe_CuiGggNhl956BfD9QbBtIRFdN715NXLTbmXnvLQJsaw5bi0uYWVyFFpdfhkDPWA7BDyj3KqmWdZlRHok8bZNT5fi6ne3fQYaW9zVqAMVOGZ9sPyQgk9gMvcORoPecOt2BIxytJ6siRVLoktdgd6609eLzBfyBOEs:1th2Sw:cNT_3Puma1mlESUAoR0kbpMxvj83UtYwpp0IBzJrVXk",
+    "expire_date": "2025-02-23T08:14:58.990Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jdjtpwcasgdoyx2qq256ulkpzjpaapwj",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RDYYqEevfsGsssuUjU0Ke3J-HdD0oNeZybzVhH3rcS9yRpnVhc1qtMvI0xPqV3wA-t90Wmp2zqT7ok-bNO3heV1Pdq_QcFW-jYhMQkGF3ISZ8Rlsjj4cxqNAAH7yRPkxNYHA5bDYIEMBwS01sGkPl8WazhK:1teyyR:akl0REDGTzEy37kZXE38z8SVlysC5BF1vEGqtUG5uBc",
+    "expire_date": "2025-02-17T16:06:59.063Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kuhu28pdrle1orzyak3427lit9ymfjsp",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAoOO24dN8zNAMzSNVAUtqV8e7apAvd_vfef6mJtjVPW5NlmlldFKrT7xYoPqTsgO9UblXHWtZlDnpX9EGbHivL83q4fweZWv7W3gphhykBOEbjfcSOk3d2COiAAjsQT-hQGIDAyrk3RoKJZFLvBlTvD-CJN7k:1thtfs:ARqPe0w0-b1nQccZBfTV6iSw9Czp1TZO0WXn6nOlNx8",
+    "expire_date": "2025-02-25T17:03:52.018Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nhfygat6ch0675taw7lcytad9feq1a3i",
+  "fields": {
+    "session_data": ".eJxVjE0OgyAYBe_CuiGggNhl956BfD9QbBtIRFdN715NXLTbmXnvLQJsaw5bi0uYWVyFFpdfhkDPWA7BDyj3KqmWdZlRHok8bZNT5fi6ne3fQYaW9zVqAMVOGZ9sPyQgk9gMvcORoPecOt2BIxytJ6siRVLoktdgd6609eLzBfyBOEs:1thP8E:eH5ITItv5-hFOO3t1C8M4YdVf4gjxZiK7zbIZ7ZZFyw",
+    "expire_date": "2025-02-24T08:27:06.228Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pvpfu4a0ftlh0gh9qsxwfj45q6le52xs",
+  "fields": {
+    "session_data": "eyJyZXNldF9lbWFpbCI6ImFsZWtoeWFkZWVwdGhpMzIzQGdtYWlsLmNvbSJ9:1thtDh:Mwi9H0RSJdfAkJsiu-Nj9thUJLa5DS0BYzuhM8FzRiE",
+    "expire_date": "2025-02-25T16:34:45.850Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xj6y2x02hr5yka82lessokfgm91vwbei",
+  "fields": {
+    "session_data": "eyJyZXNldF9lbWFpbCI6ImFsZWtoeWFkZWVwdGhpMzIzQGdtYWlsLmNvbSJ9:1thtDi:pTIvyWkt5FkY1ntTqbD5eXiF_wqtGYLm2lZp8bM1yjE",
+    "expire_date": "2025-02-25T16:34:46.910Z"
+  }
+},
+{
+  "model": "myapp.categories",
+  "pk": 7,
+  "fields": {
+    "image": "static/images/mi.jpg",
+    "heading": "Milk Shakes",
+    "descrption": "Indulge in our creamy, dreamy milkshakes—crafted to perfection for every mood. Whether you're craving something classic or adventurous, our milkshakes are a symphony of flavors, made with the freshest ingredients. Perfectly chilled and irresistibly smooth.",
+    "product1": "Caramel Crunch",
+    "product2": "Vanilla Bean Bliss",
+    "product3": "Chocolate Fudge Delight",
+    "product4": "Strawberry Sweetheart",
+    "product5": "Mango Mania",
+    "product6": "Berry Burst",
+    "product7": "Pineapple Paradise",
+    "product8": "Nutty Nutella",
+    "product9": "Coffee Craze",
+    "product10": "Peanut Butter Perfection"
+  }
+},
+{
+  "model": "myapp.categories",
+  "pk": 8,
+  "fields": {
+    "image": "static/images/fruit_juices.jpg",
+    "heading": "Fruit Juices",
+    "descrption": "Sip your way to wellness with our 100% natural, freshly pressed fruit juices. Bursting with vibrant flavors and loaded with vitamins, every glass is a refreshing journey to pure vitality.",
+    "product1": "Apple Pure Bliss",
+    "product2": "Grape Glow",
+    "product3": "Pomegranate Power",
+    "product4": "Mango Magic",
+    "product5": "Pineapple Paradise",
+    "product6": "Coconut Chill",
+    "product7": "Tropical Tango",
+    "product8": "Berry Blast",
+    "product9": "Strawberry Lemonade",
+    "product10": "Acai Berry Boost"
+  }
+},
+{
+  "model": "myapp.categories",
+  "pk": 10,
+  "fields": {
+    "image": "static/images/hotBeverages.jpg",
+    "heading": "Hot Beverages",
+    "descrption": "Warm up with our cozy selection of hot beverages, designed to soothe, refresh, and energize. Whether you're looking for a comforting drink to start your morning or something to relax everytime.",
+    "product1": "Ginger Lemon Honey",
+    "product2": "Golden Milk",
+    "product3": "Green Tea",
+    "product4": "Hot Chocolate",
+    "product5": "Hibiscus Mint Tea",
+    "product6": "Beetroot Latte",
+    "product7": "Chai Latte",
+    "product8": "Hot Pear",
+    "product9": "Apple Cider",
+    "product10": "Caramel Macchiato"
+  }
+},
+{
+  "model": "myapp.categories",
+  "pk": 11,
+  "fields": {
+    "image": "static/images/softdrinks.jpg",
+    "heading": "Soft Drinks",
+    "descrption": "Our selection of soft drinks is designed to provide a refreshing and flavorful experience, with a focus on natural ingredients, less sugar, and plenty of bubbly fun! Perfect for those looking for a cool, light, and effervescent beverage, our soft drinks are perfect for any occasion.",
+    "product1": "Thumbs Up",
+    "product2": "Sprite",
+    "product3": "Mountain Dew",
+    "product4": "Pepsi",
+    "product5": "Cocacola",
+    "product6": "Appy Fizz",
+    "product7": "Pulpy Orange",
+    "product8": "Fanta",
+    "product9": "Campa",
+    "product10": "Mirinda"
+  }
+},
+{
+  "model": "myapp.categories",
+  "pk": 12,
+  "fields": {
+    "image": "static/images/Energydrinks.jpg",
+    "heading": "Energy Drinks",
+    "descrption": "At our juice bar, we offer a selection of natural energy drinks that provide a clean and healthy boost to your day. These beverages are packed with ingredients known to enhance energy levels, improve focus, and support overall well-being.",
+    "product1": "Red Bull",
+    "product2": "Electrolyte Drink",
+    "product3": "Monster",
+    "product4": "Gulcon-D",
+    "product5": "Blunt",
+    "product6": "Gatorade",
+    "product7": "Ocean",
+    "product8": "Tata Gulco",
+    "product9": "ThumbsUp Charged",
+    "product10": "Boost"
+  }
+},
+{
+  "model": "myapp.categories",
+  "pk": 13,
+  "fields": {
+    "image": "static/images/mocktails_PjqeSq2.jpg",
+    "heading": "Mocktails",
+    "descrption": "Sip into something extraordinary with our vibrant range of mocktails, made fresh to energize your day! Our mocktails are a playful mix of juicy fruits, crisp herbs, and refreshing ingredients, designed to cater to every taste bud.",
+    "product1": "Tropical Paradise",
+    "product2": "Minty Mojito",
+    "product3": "Berry Bliss",
+    "product4": "Citrus Sparkler",
+    "product5": "Watermelon Cooler",
+    "product6": "Cucumber Cooler",
+    "product7": "Coconut Lychee",
+    "product8": "Pineapple Mint",
+    "product9": "Raspberry Limeade",
+    "product10": "Blackberry Basil"
+  }
+},
+{
+  "model": "myapp.categories",
+  "pk": 14,
+  "fields": {
+    "image": "static/images/beers.jpg",
+    "heading": "Beers",
+    "descrption": "We’ve taken the best of both worlds and paired our vibrant, health-conscious offerings with a select range of beers and wines to complement your experience. Whether you’re relaxing with friends or enjoying a special moment.",
+    "product1": "Kingfisher Light",
+    "product2": "Kingfisher Strong",
+    "product3": "Corona",
+    "product4": "Budwiser Magnum",
+    "product5": "Heineken",
+    "product6": "Budwiser Light",
+    "product7": "Amsteel",
+    "product8": "carlsberg",
+    "product9": "Tuborg",
+    "product10": "Bira 91"
+  }
+},
+{
+  "model": "myapp.categories",
+  "pk": 15,
+  "fields": {
+    "image": "static/images/wines.jpg",
+    "heading": "Wines",
+    "descrption": "Our handpicked wine selection brings the perfect balance of flavor and sophistication. We’ve curated a range of wines that pair beautifully with our juice-based drinks, offering a delightful experience to enhance your visit.",
+    "product1": "Sula",
+    "product2": "Yark",
+    "product3": "Merlot",
+    "product4": "Vallonne",
+    "product5": "Yellow Tail",
+    "product6": "Four Seasons",
+    "product7": "Grover Zampa",
+    "product8": "Frotelli",
+    "product9": "KRSMA",
+    "product10": "Rhythm"
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 10,
+  "fields": {
+    "image": "static/images/vanillabeansbliss.jpg",
+    "productName": "Vanilla Bean Bliss",
+    "productPrice": 89,
+    "quantity": "400ml",
+    "Discount": 0,
+    "Category": 7
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 11,
+  "fields": {
+    "image": "static/images/chocolatefudgedelight.jpg",
+    "productName": "Chocolate Fudge Delight",
+    "productPrice": 119,
+    "quantity": "400ml",
+    "Discount": 0,
+    "Category": 7
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 12,
+  "fields": {
+    "image": "static/images/strawberrysweetheart.jpg",
+    "productName": "Strawberry Sweetheart",
+    "productPrice": 99,
+    "quantity": "400ml",
+    "Discount": 25,
+    "Category": 7
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 13,
+  "fields": {
+    "image": "static/images/mangomaina.jpg",
+    "productName": "Mango Mania",
+    "productPrice": 139,
+    "quantity": "400ml",
+    "Discount": 0,
+    "Category": 7
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 14,
+  "fields": {
+    "image": "static/images/berryburst.jpg",
+    "productName": "Berry Burst",
+    "productPrice": 149,
+    "quantity": "400ml",
+    "Discount": 25,
+    "Category": 7
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 15,
+  "fields": {
+    "image": "static/images/pineappleparadise.jpg",
+    "productName": "Pineapple Paradise",
+    "productPrice": 99,
+    "quantity": "400ml",
+    "Discount": 0,
+    "Category": 7
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 16,
+  "fields": {
+    "image": "static/images/nuttynetella.jpg",
+    "productName": "Nutty Nutella",
+    "productPrice": 159,
+    "quantity": "400ml",
+    "Discount": 25,
+    "Category": 7
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 17,
+  "fields": {
+    "image": "static/images/coffeecraze.jpg",
+    "productName": "Coffee Craze",
+    "productPrice": 129,
+    "quantity": "400ml",
+    "Discount": 0,
+    "Category": 7
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 18,
+  "fields": {
+    "image": "static/images/peanutbutterpeflection.jpg",
+    "productName": "Peanut Butter Perfection",
+    "productPrice": 129,
+    "quantity": "400ml",
+    "Discount": 0,
+    "Category": 7
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 19,
+  "fields": {
+    "image": "static/images/apple.jpg",
+    "productName": "Apple Pure Bliss",
+    "productPrice": 89,
+    "quantity": "500ml",
+    "Discount": 0,
+    "Category": 8
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 20,
+  "fields": {
+    "image": "static/images/grapeglow.jpg",
+    "productName": "Grape Glow",
+    "productPrice": 89,
+    "quantity": "500ml",
+    "Discount": 15,
+    "Category": 8
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 21,
+  "fields": {
+    "image": "static/images/promagrantepower.jpg",
+    "productName": "Promegranate Power",
+    "productPrice": 109,
+    "quantity": "500ml",
+    "Discount": 0,
+    "Category": 8
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 22,
+  "fields": {
+    "image": "static/images/mangomagic.jpg",
+    "productName": "Mango Magic",
+    "productPrice": 99,
+    "quantity": "500ml",
+    "Discount": 15,
+    "Category": 8
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 23,
+  "fields": {
+    "image": "static/images/pineappleparadise1.jpg",
+    "productName": "Pineapple Paradise",
+    "productPrice": 129,
+    "quantity": "500ml",
+    "Discount": 0,
+    "Category": 8
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 24,
+  "fields": {
+    "image": "static/images/coconutchill.jpg",
+    "productName": "Coconut Chill",
+    "productPrice": 189,
+    "quantity": "500ml",
+    "Discount": 15,
+    "Category": 8
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 25,
+  "fields": {
+    "image": "static/images/tropicaltango.jpg",
+    "productName": "Tropical Tango",
+    "productPrice": 129,
+    "quantity": "500ml",
+    "Discount": 0,
+    "Category": 8
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 26,
+  "fields": {
+    "image": "static/images/berryblast.jpg",
+    "productName": "Berry Blast",
+    "productPrice": 209,
+    "quantity": "500ml",
+    "Discount": 0,
+    "Category": 8
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 27,
+  "fields": {
+    "image": "static/images/strawberrylemonade.jpg",
+    "productName": "Strawberry Lemonade",
+    "productPrice": 129,
+    "quantity": "500ml",
+    "Discount": 0,
+    "Category": 8
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 28,
+  "fields": {
+    "image": "static/images/AcaiBerryBoost.jpg",
+    "productName": "AcaiBerryBoost",
+    "productPrice": 159,
+    "quantity": "500ml",
+    "Discount": 0,
+    "Category": 8
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 29,
+  "fields": {
+    "image": "static/images/gingerlemonhoney.jpg",
+    "productName": "Ginger Lemon Honey",
+    "productPrice": 79,
+    "quantity": "50ml",
+    "Discount": 0,
+    "Category": 10
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 30,
+  "fields": {
+    "image": "static/images/glodenmilk.jpg",
+    "productName": "Golden Milk",
+    "productPrice": 49,
+    "quantity": "50ml",
+    "Discount": 10,
+    "Category": 10
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 31,
+  "fields": {
+    "image": "static/images/Greentea.jpg",
+    "productName": "Green Tea",
+    "productPrice": 89,
+    "quantity": "50ml",
+    "Discount": 0,
+    "Category": 10
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 32,
+  "fields": {
+    "image": "static/images/hotchocolate.jpg",
+    "productName": "Hot Chocolate",
+    "productPrice": 109,
+    "quantity": "50ml",
+    "Discount": 10,
+    "Category": 10
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 33,
+  "fields": {
+    "image": "static/images/hibiscusminttea.jpg",
+    "productName": "Hibiscus Mint Tea",
+    "productPrice": 129,
+    "quantity": "50ml",
+    "Discount": 0,
+    "Category": 10
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 34,
+  "fields": {
+    "image": "static/images/beetrootlatte.jpg",
+    "productName": "Beetroot Latte",
+    "productPrice": 119,
+    "quantity": "50ml",
+    "Discount": 10,
+    "Category": 10
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 35,
+  "fields": {
+    "image": "static/images/Chailatte.jpg",
+    "productName": "Chai Latte",
+    "productPrice": 69,
+    "quantity": "50ml",
+    "Discount": 10,
+    "Category": 10
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 36,
+  "fields": {
+    "image": "static/images/hotpear.jpg",
+    "productName": "Hot Pear",
+    "productPrice": 129,
+    "quantity": "50ml",
+    "Discount": 0,
+    "Category": 10
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 37,
+  "fields": {
+    "image": "static/images/appleciderjuice.jpg",
+    "productName": "Apple Cider Juice",
+    "productPrice": 159,
+    "quantity": "50ml",
+    "Discount": 0,
+    "Category": 10
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 38,
+  "fields": {
+    "image": "static/images/Caramel_Macchiato.jpg",
+    "productName": "Caramel Macchiato",
+    "productPrice": 169,
+    "quantity": "50ml",
+    "Discount": 0,
+    "Category": 10
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 40,
+  "fields": {
+    "image": "static/images/Thumbsup_BKaqcZS.webp",
+    "productName": "Thumbsup",
+    "productPrice": 40,
+    "quantity": "250ml",
+    "Discount": 0,
+    "Category": 11
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 41,
+  "fields": {
+    "image": "static/images/sprite.jpg",
+    "productName": "Sprite",
+    "productPrice": 35,
+    "quantity": "250ml",
+    "Discount": 5,
+    "Category": 11
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 42,
+  "fields": {
+    "image": "static/images/mountaindew.jpg",
+    "productName": "Mountain Dew",
+    "productPrice": 35,
+    "quantity": "250ml",
+    "Discount": 5,
+    "Category": 11
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 43,
+  "fields": {
+    "image": "static/images/pepsi.jpg",
+    "productName": "Pepsi",
+    "productPrice": 35,
+    "quantity": "250ml",
+    "Discount": 5,
+    "Category": 11
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 44,
+  "fields": {
+    "image": "static/images/cococola.jpg",
+    "productName": "Cococola",
+    "productPrice": 35,
+    "quantity": "250ml",
+    "Discount": 5,
+    "Category": 11
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 45,
+  "fields": {
+    "image": "static/images/AppyFizz.jpg",
+    "productName": "Appy Fizz",
+    "productPrice": 30,
+    "quantity": "250ml",
+    "Discount": 5,
+    "Category": 11
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 46,
+  "fields": {
+    "image": "static/images/pulpyorange.jpg",
+    "productName": "Pulpy Orange",
+    "productPrice": 20,
+    "quantity": "250ml",
+    "Discount": 0,
+    "Category": 11
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 47,
+  "fields": {
+    "image": "static/images/fanta.jpg",
+    "productName": "Fanta",
+    "productPrice": 20,
+    "quantity": "250ml",
+    "Discount": 0,
+    "Category": 11
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 48,
+  "fields": {
+    "image": "static/images/campa.jpg",
+    "productName": "Campa",
+    "productPrice": 20,
+    "quantity": "250ml",
+    "Discount": 0,
+    "Category": 11
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 49,
+  "fields": {
+    "image": "static/images/mirinda.jpg",
+    "productName": "Mirinda",
+    "productPrice": 30,
+    "quantity": "250ml",
+    "Discount": 0,
+    "Category": 11
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 50,
+  "fields": {
+    "image": "static/images/redbull.jpg",
+    "productName": "Red Bull",
+    "productPrice": 120,
+    "quantity": "300ml",
+    "Discount": 0,
+    "Category": 12
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 51,
+  "fields": {
+    "image": "static/images/electrolytedrink.jpg",
+    "productName": "Electrolyte Drink",
+    "productPrice": 100,
+    "quantity": "300ml",
+    "Discount": 0,
+    "Category": 12
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 52,
+  "fields": {
+    "image": "static/images/monster.jpg",
+    "productName": "Monster",
+    "productPrice": 120,
+    "quantity": "300ml",
+    "Discount": 0,
+    "Category": 12
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 53,
+  "fields": {
+    "image": "static/images/Glucon-D.jpg",
+    "productName": "Glucon-D",
+    "productPrice": 50,
+    "quantity": "300ml",
+    "Discount": 0,
+    "Category": 12
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 54,
+  "fields": {
+    "image": "static/images/blunt.jpg",
+    "productName": "Blunt",
+    "productPrice": 60,
+    "quantity": "300ml",
+    "Discount": 0,
+    "Category": 12
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 55,
+  "fields": {
+    "image": "static/images/Gatorade.jpg",
+    "productName": "Gatorade",
+    "productPrice": 109,
+    "quantity": "300ml",
+    "Discount": 0,
+    "Category": 12
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 56,
+  "fields": {
+    "image": "static/images/ocean.webp",
+    "productName": "Ocean",
+    "productPrice": 69,
+    "quantity": "300ml",
+    "Discount": 0,
+    "Category": 12
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 57,
+  "fields": {
+    "image": "static/images/tatagluco.jpg",
+    "productName": "Tata Gluco",
+    "productPrice": 10,
+    "quantity": "300ml",
+    "Discount": 0,
+    "Category": 12
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 58,
+  "fields": {
+    "image": "static/images/thumbsupcharged.jpg",
+    "productName": "ThumbsUp Charged",
+    "productPrice": 40,
+    "quantity": "250ml",
+    "Discount": 0,
+    "Category": 12
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 59,
+  "fields": {
+    "image": "static/images/boost.jpg",
+    "productName": "Boost",
+    "productPrice": 40,
+    "quantity": "200ml",
+    "Discount": 0,
+    "Category": 12
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 60,
+  "fields": {
+    "image": "static/images/TropicalParadise.jpg",
+    "productName": "Tropical Paradise",
+    "productPrice": 129,
+    "quantity": "350ml",
+    "Discount": 0,
+    "Category": 13
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 61,
+  "fields": {
+    "image": "static/images/Minty_Mojito.jpg",
+    "productName": "Minty Mojito",
+    "productPrice": 139,
+    "quantity": "350ml",
+    "Discount": 0,
+    "Category": 13
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 63,
+  "fields": {
+    "image": "static/images/Berry_Bliss.jpg",
+    "productName": "Berry Bliss",
+    "productPrice": 159,
+    "quantity": "350ml",
+    "Discount": 0,
+    "Category": 13
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 64,
+  "fields": {
+    "image": "static/images/Citrus_Sparkler_Mocktail.jpg",
+    "productName": "Citrus Sparkler",
+    "productPrice": 169,
+    "quantity": "350ml",
+    "Discount": 20,
+    "Category": 13
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 65,
+  "fields": {
+    "image": "static/images/Watermelon_cooler.jpg",
+    "productName": "Watermelon Cooler",
+    "productPrice": 169,
+    "quantity": "350ml",
+    "Discount": 20,
+    "Category": 13
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 66,
+  "fields": {
+    "image": "static/images/CucumberCoolerMocktail.jpg",
+    "productName": "Cucumber Cooler",
+    "productPrice": 149,
+    "quantity": "350ml",
+    "Discount": 20,
+    "Category": 13
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 67,
+  "fields": {
+    "image": "static/images/CoconutLycheeMocktail.jpg",
+    "productName": "Coconut Lychee",
+    "productPrice": 159,
+    "quantity": "350ml",
+    "Discount": 20,
+    "Category": 13
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 68,
+  "fields": {
+    "image": "static/images/PineappleMintMocktail.jpg",
+    "productName": "Pineapple Mint",
+    "productPrice": 159,
+    "quantity": "350ml",
+    "Discount": 0,
+    "Category": 13
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 69,
+  "fields": {
+    "image": "static/images/RaspberryLimeadeMocktail.jpg",
+    "productName": "Rasberry Limeade",
+    "productPrice": 159,
+    "quantity": "350ml",
+    "Discount": 0,
+    "Category": 13
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 70,
+  "fields": {
+    "image": "static/images/BlackberryBasilMocktail.jpg",
+    "productName": "Blackberry Basil",
+    "productPrice": 189,
+    "quantity": "350ml",
+    "Discount": 0,
+    "Category": 13
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 71,
+  "fields": {
+    "image": "static/images/Kingfisher_Light.jpg",
+    "productName": "Kingfisher Light",
+    "productPrice": 150,
+    "quantity": "1Unit",
+    "Discount": 40,
+    "Category": 14
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 72,
+  "fields": {
+    "image": "static/images/Kingfisher_Strong.jpg",
+    "productName": "Kingfisher Strong",
+    "productPrice": 160,
+    "quantity": "1Unit",
+    "Discount": 40,
+    "Category": 14
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 73,
+  "fields": {
+    "image": "static/images/Corona.jpg",
+    "productName": "Corona",
+    "productPrice": 210,
+    "quantity": "1Unit",
+    "Discount": 40,
+    "Category": 14
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 74,
+  "fields": {
+    "image": "static/images/Budweiser_Magnum.jpg",
+    "productName": "Budweiser Magnum",
+    "productPrice": 210,
+    "quantity": "1Unit",
+    "Discount": 0,
+    "Category": 14
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 75,
+  "fields": {
+    "image": "static/images/Heineken.jpg",
+    "productName": "Heineken",
+    "productPrice": 250,
+    "quantity": "1Unit",
+    "Discount": 0,
+    "Category": 14
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 76,
+  "fields": {
+    "image": "static/images/Budweiser_Light.jpg",
+    "productName": "Budweiser Light",
+    "productPrice": 200,
+    "quantity": "1Unit",
+    "Discount": 0,
+    "Category": 14
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 77,
+  "fields": {
+    "image": "static/images/Amsteel.jpg",
+    "productName": "Amsteel",
+    "productPrice": 200,
+    "quantity": "1Unit",
+    "Discount": 0,
+    "Category": 14
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 78,
+  "fields": {
+    "image": "static/images/Carlsberg.jpg",
+    "productName": "Carlsberg",
+    "productPrice": 180,
+    "quantity": "1Unit",
+    "Discount": 0,
+    "Category": 14
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 79,
+  "fields": {
+    "image": "static/images/Tuborg.jpg",
+    "productName": "Tuborg",
+    "productPrice": 150,
+    "quantity": "1Unit",
+    "Discount": 0,
+    "Category": 14
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 80,
+  "fields": {
+    "image": "static/images/Bira_91.jpg",
+    "productName": "Bira 91",
+    "productPrice": 210,
+    "quantity": "1Unit",
+    "Discount": 0,
+    "Category": 14
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 81,
+  "fields": {
+    "image": "static/images/Sula.jpg",
+    "productName": "Sula",
+    "productPrice": 1200,
+    "quantity": "1Unit",
+    "Discount": 0,
+    "Category": 15
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 82,
+  "fields": {
+    "image": "static/images/Yark.jpg",
+    "productName": "Yark",
+    "productPrice": 1300,
+    "quantity": "1Unit",
+    "Discount": 0,
+    "Category": 15
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 83,
+  "fields": {
+    "image": "static/images/Merlot.jpg",
+    "productName": "Merlot",
+    "productPrice": 2100,
+    "quantity": "1Unit",
+    "Discount": 0,
+    "Category": 15
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 84,
+  "fields": {
+    "image": "static/images/Vallonne.jpg",
+    "productName": "Vallonne",
+    "productPrice": 1800,
+    "quantity": "1Unit",
+    "Discount": 40,
+    "Category": 15
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 85,
+  "fields": {
+    "image": "static/images/Yellow_Tail.jpg",
+    "productName": "Yellow Tail",
+    "productPrice": 2300,
+    "quantity": "1Unit",
+    "Discount": 40,
+    "Category": 15
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 86,
+  "fields": {
+    "image": "static/images/Four_seasons.jpg",
+    "productName": "Four Seasons",
+    "productPrice": 2340,
+    "quantity": "1Unit",
+    "Discount": 40,
+    "Category": 15
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 87,
+  "fields": {
+    "image": "static/images/Grover_Zampa.jpg",
+    "productName": "Grover Zampa",
+    "productPrice": 2330,
+    "quantity": "1Unit",
+    "Discount": 0,
+    "Category": 15
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 88,
+  "fields": {
+    "image": "static/images/Frotelli.jpg",
+    "productName": "Frotelli",
+    "productPrice": 3000,
+    "quantity": "1Unit",
+    "Discount": 0,
+    "Category": 15
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 89,
+  "fields": {
+    "image": "static/images/Krsma.jpg",
+    "productName": "Krsma",
+    "productPrice": 2100,
+    "quantity": "1Unit",
+    "Discount": 0,
+    "Category": 15
+  }
+},
+{
+  "model": "myapp.products",
+  "pk": 90,
+  "fields": {
+    "image": "static/images/Rhythm.jpg",
+    "productName": "Rhythm",
+    "productPrice": 3200,
+    "quantity": "1Unit",
+    "Discount": 0,
+    "Category": 15
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add categories",
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "codename": "add_categories"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change categories",
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "codename": "change_categories"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete categories",
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "codename": "delete_categories"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view categories",
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "codename": "view_categories"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add products",
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "codename": "add_products"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change products",
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "codename": "change_products"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete products",
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "codename": "delete_products"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view products",
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "codename": "view_products"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add cart",
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "codename": "add_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change cart",
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "codename": "change_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete cart",
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "codename": "delete_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view cart",
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "codename": "view_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "myapp",
+      "customuser"
+    ],
+    "codename": "add_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "myapp",
+      "customuser"
+    ],
+    "codename": "change_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "myapp",
+      "customuser"
+    ],
+    "codename": "delete_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "myapp",
+      "customuser"
+    ],
+    "codename": "view_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add orders",
+    "content_type": [
+      "myapp",
+      "orders"
+    ],
+    "codename": "add_orders"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change orders",
+    "content_type": [
+      "myapp",
+      "orders"
+    ],
+    "codename": "change_orders"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete orders",
+    "content_type": [
+      "myapp",
+      "orders"
+    ],
+    "codename": "delete_orders"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view orders",
+    "content_type": [
+      "myapp",
+      "orders"
+    ],
+    "codename": "view_orders"
+  }
+},
+{
+  "model": "myapp.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$Wt4dAl9Hbyl722rHlbJHLb$f0sMm3LVwOD45sk/ZdkbxZa7tpg0OL/cFhd3ZoUla78=",
+    "last_login": "2025-02-20T16:01:56.897Z",
+    "is_superuser": false,
+    "username": "bob",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-02-01T08:11:14.660Z",
+    "email": "bob@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$sLX9U9GZNHSJ6zw786JbDf$W8ioED+20CWE/78Pr0naobiGigAteCMUcqlmKJ6YNsM=",
+    "last_login": "2025-02-13T16:00:56.973Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-02-01T08:26:20.459Z",
+    "email": "admin@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$BMTfuvbQyzf45aEZs2zcQs$wEap3EoJ2Pbj+GcJBbo3BoVJPfrGef2uNZ36B0HdolY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "wade",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-02-01T08:27:45.382Z",
+    "email": "wade@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$bnQYMUzy74sAVB1N4haZ8J$nTEPHgTHDx1gXRQjLmuAL3BZ7fDsJkMO8cJfEqe5CDI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ram",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-02-03T14:42:47.249Z",
+    "email": "ram@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$pewYKw4nBZM3yYMEOgChsA$sbXJn/BvrWlHo2vfs7+c8AaFphedRyw6Nj6LxEck2Lw=",
+    "last_login": "2025-02-03T15:55:35.452Z",
+    "is_superuser": false,
+    "username": "random",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-02-03T15:55:23.913Z",
+    "email": "random@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$8iFOseX9Ac38zXRfoKBB2j$ljFloCEiH9PDMFnyBCWveul6R5eOvpg3VUDujNd1D9M=",
+    "last_login": "2025-02-03T16:06:59.047Z",
+    "is_superuser": false,
+    "username": "chandu",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-02-03T16:06:46.652Z",
+    "email": "chandu@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$hfJdh7hx7xk0CHlDfwBU5d$RyNFehvmDlq2c/yoHDwWHYtZ/lTVnnBW96Pwym9zUF4=",
+    "last_login": "2025-02-03T16:30:13.979Z",
+    "is_superuser": false,
+    "username": "bala",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-02-03T16:30:01.754Z",
+    "email": "bala@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$fGnwzWWF3UxQDSzBJFiHSh$p5TttblMx6V5EYMVo3m0HkqBrQczNrp/dseo6zZSo9s=",
+    "last_login": "2025-02-05T08:10:32.698Z",
+    "is_superuser": false,
+    "username": "tanuj",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-02-05T08:10:18.304Z",
+    "email": "tanuj@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$D1QggnBrLtRk69iv2L1kUq$JXYuAj9ejI9hirpNhr5XAY6ecJC9P5HyBydSguRno+0=",
+    "last_login": "2025-02-20T12:18:03.237Z",
+    "is_superuser": false,
+    "username": "alekhya",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-02-11T07:19:46.054Z",
+    "email": "alekhyadeepthi323@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$rG8RUrDZnnDpPHtLhtKvPZ$6V7BWQAEtg/uECTvByf7eY1dl/6N8SQbo1Ep8SZ0Q48=",
+    "last_login": "2025-02-20T04:28:17.120Z",
+    "is_superuser": false,
+    "username": "harish",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-02-19T14:45:17.375Z",
+    "email": "hareeshsamudrala489@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$0ABV2mQq3UHImjSo3hoG7a$elJ75XnZL9ce2juFCZOJ4QWQtVQ2qmc3si2U63XSqRs=",
+    "last_login": "2025-02-20T10:35:57.826Z",
+    "is_superuser": false,
+    "username": "ethan",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-02-20T10:35:47.614Z",
+    "email": "ethanhuntcr77@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$vOSGt3czudRFWrYthJft18$oDmCRn374wDh2bWXSdyK+TWddjILv5AjMKmwc+1qx3k=",
+    "last_login": "2025-02-20T10:39:17.714Z",
+    "is_superuser": false,
+    "username": "adhya",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-02-20T10:39:04.290Z",
+    "email": "adhyabolineedi@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$jumfQ1CetTsfbeYAYlcIfK$8HEoYaYHBP7QAivgZmlWv7tVoBmDr2CVJy7PE7OzZk8=",
+    "last_login": "2025-02-20T17:33:49.716Z",
+    "is_superuser": false,
+    "username": "navaneeth",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-02-20T12:14:24.326Z",
+    "email": "navaneeth.dns5492@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$870000$BEnNwRBXkx1DcnAYeUegt1$+bc0VcZ1WdBvNoY+Zt9t8cNbDjarAxiyZeafUuaQduw=",
+    "last_login": "2025-02-20T13:01:47.589Z",
+    "is_superuser": false,
+    "username": "yasaswini",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-02-20T12:18:57.516Z",
+    "email": "yasaswiniakula39@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.cart",
+  "pk": 119,
+  "fields": {
+    "user": [
+      "adhya"
+    ],
+    "product": 34,
+    "image": "static/images/beetrootlatte.jpg",
+    "quantity": 1,
+    "price": 119,
+    "number": 1
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 15,
+    "quantity": 1,
+    "price": "99.00",
+    "ordered_at": "2025-02-03T15:43:11.903Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 11,
+    "quantity": 1,
+    "price": "119.00",
+    "ordered_at": "2025-02-03T15:43:11.920Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 15,
+    "quantity": 1,
+    "price": "99.00",
+    "ordered_at": "2025-02-03T15:47:52.452Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "random"
+    ],
+    "product": 10,
+    "quantity": 1,
+    "price": "89.00",
+    "ordered_at": "2025-02-03T16:04:34.196Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "chandu"
+    ],
+    "product": 11,
+    "quantity": 1,
+    "price": "119.00",
+    "ordered_at": "2025-02-03T16:07:12.880Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 6,
+  "fields": {
+    "user": [
+      "bala"
+    ],
+    "product": 10,
+    "quantity": 1,
+    "price": "89.00",
+    "ordered_at": "2025-02-03T16:30:23.994Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 7,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 11,
+    "quantity": 1,
+    "price": "119.00",
+    "ordered_at": "2025-02-04T07:12:21.554Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 8,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 11,
+    "quantity": 1,
+    "price": "119.00",
+    "ordered_at": "2025-02-04T08:30:15.180Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 9,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 72,
+    "quantity": 1,
+    "price": "160.00",
+    "ordered_at": "2025-02-05T08:04:28.975Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 10,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 73,
+    "quantity": 1,
+    "price": "210.00",
+    "ordered_at": "2025-02-05T08:04:29.004Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 12,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 30,
+    "quantity": 1,
+    "price": "49.00",
+    "ordered_at": "2025-02-11T06:15:17.806Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 13,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 20,
+    "quantity": 4,
+    "price": "356.00",
+    "ordered_at": "2025-02-11T06:15:17.812Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 14,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 10,
+    "quantity": 1,
+    "price": "89.00",
+    "ordered_at": "2025-02-11T06:17:26.731Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 15,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 20,
+    "quantity": 1,
+    "price": "89.00",
+    "ordered_at": "2025-02-11T06:17:26.742Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 16,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 19,
+    "quantity": 1,
+    "price": "89.00",
+    "ordered_at": "2025-02-11T06:17:26.748Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 17,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 21,
+    "quantity": 1,
+    "price": "109.00",
+    "ordered_at": "2025-02-11T06:17:26.754Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 18,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 20,
+    "quantity": 1,
+    "price": "89.00",
+    "ordered_at": "2025-02-11T06:39:59.052Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 19,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 51,
+    "quantity": 1,
+    "price": "100.00",
+    "ordered_at": "2025-02-11T06:39:59.060Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 20,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 32,
+    "quantity": 1,
+    "price": "109.00",
+    "ordered_at": "2025-02-11T07:09:10.738Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 21,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 34,
+    "quantity": 1,
+    "price": "119.00",
+    "ordered_at": "2025-02-11T07:09:10.747Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 22,
+  "fields": {
+    "user": [
+      "bob"
+    ],
+    "product": 32,
+    "quantity": 1,
+    "price": "109.00",
+    "ordered_at": "2025-02-11T07:18:36.350Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 23,
+  "fields": {
+    "user": [
+      "alekhya"
+    ],
+    "product": 34,
+    "quantity": 1,
+    "price": "119.00",
+    "ordered_at": "2025-02-11T07:20:04.580Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 24,
+  "fields": {
+    "user": [
+      "alekhya"
+    ],
+    "product": 34,
+    "quantity": 1,
+    "price": "119.00",
+    "ordered_at": "2025-02-11T07:21:03.280Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 25,
+  "fields": {
+    "user": [
+      "alekhya"
+    ],
+    "product": 34,
+    "quantity": 1,
+    "price": "119.00",
+    "ordered_at": "2025-02-11T07:24:03.702Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 26,
+  "fields": {
+    "user": [
+      "alekhya"
+    ],
+    "product": 35,
+    "quantity": 1,
+    "price": "69.00",
+    "ordered_at": "2025-02-11T07:24:07.002Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 27,
+  "fields": {
+    "user": [
+      "alekhya"
+    ],
+    "product": 24,
+    "quantity": 1,
+    "price": "189.00",
+    "ordered_at": "2025-02-11T07:26:49.491Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 28,
+  "fields": {
+    "user": [
+      "alekhya"
+    ],
+    "product": 16,
+    "quantity": 1,
+    "price": "159.00",
+    "ordered_at": "2025-02-11T07:28:33.739Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 29,
+  "fields": {
+    "user": [
+      "alekhya"
+    ],
+    "product": 73,
+    "quantity": 1,
+    "price": "210.00",
+    "ordered_at": "2025-02-11T07:29:25.231Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 30,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "product": 32,
+    "quantity": 1,
+    "price": "109.00",
+    "ordered_at": "2025-02-11T07:31:36.690Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 31,
+  "fields": {
+    "user": [
+      "adhya"
+    ],
+    "product": 34,
+    "quantity": 1,
+    "price": "119.00",
+    "ordered_at": "2025-02-20T11:30:04.245Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 32,
+  "fields": {
+    "user": [
+      "adhya"
+    ],
+    "product": 43,
+    "quantity": 1,
+    "price": "35.00",
+    "ordered_at": "2025-02-20T11:45:46.700Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 33,
+  "fields": {
+    "user": [
+      "adhya"
+    ],
+    "product": 24,
+    "quantity": 1,
+    "price": "189.00",
+    "ordered_at": "2025-02-20T12:04:53.615Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 34,
+  "fields": {
+    "user": [
+      "adhya"
+    ],
+    "product": 73,
+    "quantity": 1,
+    "price": "210.00",
+    "ordered_at": "2025-02-20T12:05:00.393Z"
+  }
+},
+{
+  "model": "myapp.orders",
+  "pk": 35,
+  "fields": {
+    "user": [
+      "adhya"
+    ],
+    "product": 16,
+    "quantity": 1,
+    "price": "159.00",
+    "ordered_at": "2025-02-20T12:05:13.811Z"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-01-24T07:59:49.089Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "1",
+    "object_repr": "Categories object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-01-24T08:00:32.620Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "2",
+    "object_repr": "Categories object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-01-24T08:39:38.828Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "3",
+    "object_repr": "Categories object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-01-24T10:19:53.177Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "3",
+    "object_repr": "Categories object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-01-24T10:19:53.177Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "2",
+    "object_repr": "Categories object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-01-24T10:19:53.177Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "1",
+    "object_repr": "Categories object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-01-24T10:29:36.466Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "4",
+    "object_repr": "Categories object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-01-25T07:16:02.213Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "4",
+    "object_repr": "Categories object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-01-25T07:17:41.819Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "5",
+    "object_repr": "Categories object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-01-25T07:18:59.739Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "5",
+    "object_repr": "Categories object (5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-01-25T07:32:11.716Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "6",
+    "object_repr": "Categories object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-01-25T16:01:00.537Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "1",
+    "object_repr": "products object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-01-25T16:50:34.425Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "2",
+    "object_repr": "products object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-01-26T17:01:17.958Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "3",
+    "object_repr": "products object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-01-26T17:01:35.386Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "4",
+    "object_repr": "products object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-01-26T17:01:52.186Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "5",
+    "object_repr": "products object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-01-26T17:02:09.337Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "6",
+    "object_repr": "products object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-01-26T17:06:35.534Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "7",
+    "object_repr": "products object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-01-26T17:07:25.469Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "8",
+    "object_repr": "products object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-01-26T17:15:08.382Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "5",
+    "object_repr": "products object (5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-01-27T07:18:14.475Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "6",
+    "object_repr": "Categories object (6)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-01-27T07:25:22.073Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "7",
+    "object_repr": "Categories object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-01-27T07:32:25.665Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "8",
+    "object_repr": "Categories object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-01-27T07:47:08.242Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "9",
+    "object_repr": "Categories object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-01-27T07:57:16.075Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "10",
+    "object_repr": "Categories object (10)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-01-27T08:02:07.771Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "11",
+    "object_repr": "Categories object (11)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-01-27T08:11:28.427Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "12",
+    "object_repr": "Categories object (12)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-01-27T08:14:25.174Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "9",
+    "object_repr": "Categories object (9)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-01-27T08:18:59.226Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "13",
+    "object_repr": "Categories object (13)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-01-27T08:29:16.324Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "14",
+    "object_repr": "Categories object (14)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-01-27T08:35:57.948Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "15",
+    "object_repr": "Categories object (15)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-01-27T17:12:22.520Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "8",
+    "object_repr": "products object (8)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-01-27T17:12:22.520Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "7",
+    "object_repr": "products object (7)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-01-27T17:12:22.520Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "6",
+    "object_repr": "products object (6)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-01-27T17:12:22.520Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "4",
+    "object_repr": "products object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-01-27T17:12:22.520Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "3",
+    "object_repr": "products object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-01-27T17:12:22.520Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "2",
+    "object_repr": "products object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-01-27T17:12:22.520Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "1",
+    "object_repr": "products object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-01-27T17:17:52.122Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "9",
+    "object_repr": "products object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-01-27T18:22:42.178Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "10",
+    "object_repr": "products object (10)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-01-27T18:28:55.521Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "11",
+    "object_repr": "products object (11)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-01-27T18:30:22.986Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "12",
+    "object_repr": "products object (12)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-01-27T18:32:25.053Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "13",
+    "object_repr": "products object (13)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-01-27T18:33:49.727Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "14",
+    "object_repr": "products object (14)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-01-27T18:35:05.244Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "15",
+    "object_repr": "products object (15)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-01-27T18:36:27.303Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "16",
+    "object_repr": "products object (16)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-01-27T18:37:33.757Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "17",
+    "object_repr": "products object (17)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-01-27T18:39:07.113Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "18",
+    "object_repr": "products object (18)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-01-28T07:38:27.488Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "19",
+    "object_repr": "products object (19)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-01-28T07:39:29.123Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "20",
+    "object_repr": "products object (20)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-01-28T07:40:24.677Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "21",
+    "object_repr": "products object (21)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-01-28T07:43:19.650Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "22",
+    "object_repr": "products object (22)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-01-28T07:44:23.459Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "23",
+    "object_repr": "products object (23)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-01-28T07:45:12.455Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "24",
+    "object_repr": "products object (24)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-01-28T07:47:07.930Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "25",
+    "object_repr": "products object (25)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-01-28T07:48:18.549Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "26",
+    "object_repr": "products object (26)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-01-28T07:49:36.930Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "27",
+    "object_repr": "products object (27)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-01-28T07:53:51.603Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "28",
+    "object_repr": "products object (28)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-01-28T08:04:12.555Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "29",
+    "object_repr": "products object (29)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-01-28T08:04:57.745Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "30",
+    "object_repr": "products object (30)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-01-28T08:05:38.208Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "31",
+    "object_repr": "products object (31)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-01-28T08:06:18.507Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "32",
+    "object_repr": "products object (32)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-01-28T08:07:01.902Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "33",
+    "object_repr": "products object (33)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-01-28T08:07:41.784Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "34",
+    "object_repr": "products object (34)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-01-28T08:08:59.482Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "35",
+    "object_repr": "products object (35)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-01-28T08:10:51.222Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "36",
+    "object_repr": "products object (36)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-01-28T08:11:35.509Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "37",
+    "object_repr": "products object (37)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-01-28T08:12:24.660Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "38",
+    "object_repr": "products object (38)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-01-28T08:21:08.316Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "39",
+    "object_repr": "products object (39)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-01-28T08:21:24.570Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "39",
+    "object_repr": "products object (39)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-01-28T08:22:26.257Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "40",
+    "object_repr": "products object (40)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-01-28T08:23:03.374Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "41",
+    "object_repr": "products object (41)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-01-28T08:23:57.347Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "42",
+    "object_repr": "products object (42)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-01-28T08:25:25.615Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "43",
+    "object_repr": "products object (43)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-01-28T08:25:47.987Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "44",
+    "object_repr": "products object (44)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-01-28T08:26:45.208Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "45",
+    "object_repr": "products object (45)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-01-28T08:28:07.338Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "46",
+    "object_repr": "products object (46)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-01-28T08:31:14.990Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "47",
+    "object_repr": "products object (47)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-01-28T08:32:00.767Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "48",
+    "object_repr": "products object (48)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-01-28T08:32:32.710Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "49",
+    "object_repr": "products object (49)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-01-28T08:34:07.521Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "50",
+    "object_repr": "products object (50)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-01-28T08:35:11.147Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "51",
+    "object_repr": "products object (51)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-01-28T08:35:43.218Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "52",
+    "object_repr": "products object (52)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-01-28T08:46:19.965Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "53",
+    "object_repr": "products object (53)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-01-28T08:47:16.150Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "54",
+    "object_repr": "products object (54)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-01-28T08:48:08.325Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "55",
+    "object_repr": "products object (55)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-01-28T08:48:32.652Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "56",
+    "object_repr": "products object (56)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-01-28T08:52:38.789Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "57",
+    "object_repr": "products object (57)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-01-28T12:11:27.131Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "58",
+    "object_repr": "products object (58)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-01-28T12:12:06.774Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "59",
+    "object_repr": "products object (59)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-01-28T12:14:21.114Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "60",
+    "object_repr": "products object (60)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-01-28T12:19:24.991Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "61",
+    "object_repr": "products object (61)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-01-28T12:19:52.369Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "62",
+    "object_repr": "products object (62)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-01-28T12:20:47.133Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "62",
+    "object_repr": "products object (62)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-01-28T12:21:19.450Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "63",
+    "object_repr": "products object (63)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-01-28T12:22:06.529Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "64",
+    "object_repr": "products object (64)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-01-28T12:22:34.002Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "65",
+    "object_repr": "products object (65)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-01-28T12:23:09.768Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "66",
+    "object_repr": "products object (66)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-01-28T12:23:37.828Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "67",
+    "object_repr": "products object (67)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2025-01-28T12:24:01.936Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "68",
+    "object_repr": "products object (68)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-01-28T12:24:33.911Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "69",
+    "object_repr": "products object (69)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-01-28T12:25:02.229Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "70",
+    "object_repr": "products object (70)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2025-01-28T12:29:06.510Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "71",
+    "object_repr": "products object (71)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2025-01-28T12:29:41.942Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "72",
+    "object_repr": "products object (72)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2025-01-28T12:30:13.716Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "73",
+    "object_repr": "products object (73)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2025-01-28T12:30:41.665Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "74",
+    "object_repr": "products object (74)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-01-28T12:31:10.366Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "75",
+    "object_repr": "products object (75)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2025-01-28T12:31:37.937Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "76",
+    "object_repr": "products object (76)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2025-01-28T12:32:01.297Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "77",
+    "object_repr": "products object (77)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2025-01-28T12:32:30.171Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "78",
+    "object_repr": "products object (78)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2025-01-28T12:32:53.048Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "79",
+    "object_repr": "products object (79)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-01-28T12:33:24.258Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "80",
+    "object_repr": "products object (80)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2025-01-28T12:36:49.649Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "81",
+    "object_repr": "products object (81)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2025-01-28T12:37:31.411Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "82",
+    "object_repr": "products object (82)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2025-01-28T12:37:54.509Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "83",
+    "object_repr": "products object (83)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2025-01-28T12:38:18.886Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "84",
+    "object_repr": "products object (84)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2025-01-28T12:38:42.640Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "85",
+    "object_repr": "products object (85)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2025-01-28T12:39:22.615Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "86",
+    "object_repr": "products object (86)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2025-01-28T12:39:47.236Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "87",
+    "object_repr": "products object (87)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2025-01-28T12:40:12.579Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "88",
+    "object_repr": "products object (88)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2025-01-28T12:40:33.065Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "89",
+    "object_repr": "products object (89)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2025-01-28T12:41:05.967Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "90",
+    "object_repr": "products object (90)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2025-01-29T15:21:49.821Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "10",
+    "object_repr": "cart object (10)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2025-01-29T15:21:49.821Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "9",
+    "object_repr": "cart object (9)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2025-01-29T15:21:49.821Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "8",
+    "object_repr": "cart object (8)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2025-01-29T15:21:49.821Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "7",
+    "object_repr": "cart object (7)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2025-01-29T15:21:49.821Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "6",
+    "object_repr": "cart object (6)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2025-01-29T15:21:49.821Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "5",
+    "object_repr": "cart object (5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2025-01-29T15:21:49.821Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "4",
+    "object_repr": "cart object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2025-01-29T15:21:49.821Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "3",
+    "object_repr": "cart object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2025-01-29T15:21:49.821Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "2",
+    "object_repr": "cart object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2025-01-29T15:21:49.821Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "1",
+    "object_repr": "cart object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2025-01-29T15:34:41.357Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "22",
+    "object_repr": "cart object (22)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2025-01-29T15:34:41.357Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "21",
+    "object_repr": "cart object (21)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2025-01-29T15:34:41.357Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "20",
+    "object_repr": "cart object (20)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2025-01-29T15:34:41.357Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "19",
+    "object_repr": "cart object (19)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2025-01-29T15:34:41.357Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "18",
+    "object_repr": "cart object (18)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2025-01-29T15:34:41.357Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "17",
+    "object_repr": "cart object (17)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2025-01-29T15:34:41.357Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "16",
+    "object_repr": "cart object (16)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2025-01-29T15:34:41.357Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "15",
+    "object_repr": "cart object (15)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2025-01-29T15:34:41.357Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "14",
+    "object_repr": "cart object (14)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2025-01-29T15:34:41.357Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "13",
+    "object_repr": "cart object (13)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2025-01-29T15:34:41.357Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "12",
+    "object_repr": "cart object (12)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2025-01-29T15:34:41.357Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "11",
+    "object_repr": "cart object (11)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2025-01-29T17:07:03.227Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "28",
+    "object_repr": "cart object (28)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2025-01-29T17:07:03.227Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "27",
+    "object_repr": "cart object (27)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2025-01-29T17:07:03.227Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "26",
+    "object_repr": "cart object (26)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2025-01-29T17:07:03.227Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "25",
+    "object_repr": "cart object (25)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2025-01-29T17:07:03.227Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "24",
+    "object_repr": "cart object (24)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2025-01-29T17:07:03.227Z",
+    "user": [
+      "bob"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "23",
+    "object_repr": "cart object (23)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2025-02-03T16:06:01.990Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "73",
+    "object_repr": "cart object (73)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2025-02-11T07:31:12.890Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "myapp",
+      "cart"
+    ],
+    "object_id": "106",
+    "object_repr": "cart object (106)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2025-02-13T15:44:33.468Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "16",
+    "object_repr": "pawan kalyan",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2025-02-13T15:46:09.714Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "91",
+    "object_repr": "Sooth",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2025-02-13T15:46:53.749Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "9",
+    "object_repr": "Caramel Crunch",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2025-02-13T15:47:25.680Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "16",
+    "object_repr": "pawan kalyan",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2025-02-13T16:01:47.565Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "17",
+    "object_repr": "Milk Shakes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2025-02-13T16:02:24.074Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "17",
+    "object_repr": "Milk Shakes",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2025-02-14T08:18:37.188Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "myapp",
+      "categories"
+    ],
+    "object_id": "18",
+    "object_repr": "Chiru",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2025-02-19T14:36:12.681Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "93",
+    "object_repr": "random",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2025-02-19T14:37:28.426Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "myapp",
+      "products"
+    ],
+    "object_id": "94",
+    "object_repr": "xdfcgh",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+}
+]

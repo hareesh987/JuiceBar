@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Products</title>
+    <style>
+        /* General Styling */
+        @font-face {
+            font-family: CarmenSans;
+            src: url('/static/font/PlayfairDisplaySC-Bold.ttf');
+            font-weight: normal;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background:radial-gradient(circle at 0% 0%, #d4f0f0, transparent 50%),
+            radial-gradient(circle at 100% 0%, #ffd1dc, transparent 50%),
+            radial-gradient(circle at 100% 100%,#b6e3e9 , transparent 50%),
+            radial-gradient(circle at 0% 100%, #ffefba, transparent 50%),
+            #f8f9fa;
+            font-family: PlayfairDisplayBold;
+        }
+
+        /* Navigation */
+        nav {
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+            gap: 5rem;
+            position: sticky;
+            font-family: CarmenSans, sans-serif;
+            top: 0;
+            z-index: 100;
+            background-color:transparent;
+            backdrop-filter:blur(1rem);
+        }
+
+        nav a {
+            color: #090110;
+            font-size: 1.5rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 500;
+            padding: 12px 20px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ffd1dc;
+            color: rgb(15, 14, 0);
+            transform: scale(1.05);
+        }
+        ::-webkit-scrollbar{
+            display:none;
+        }
+        .logout {
+            background-color: #ffd1dc;
+            color: black;
+        }
+
+        .logout:hover {
+            background-color: #c82333;
+        }
+        h2.title {
+            text-align: center;
+            color:rgba(235, 12, 12, 0.733);
+        }
+        .add-button {
+            display: block;
+            width: fit-content;
+            margin: 0 auto 20px;
+            background: #28a745;
+            color: white;
+            padding: 10px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size:1.3rem;
+        }
+
+        .add-button:hover {
+            background: #218838;
+        }
+
+        .table_Parent {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            font-size:1.5rem;
+        }
+
+        table {
+            width: 85%;
+            background: transparent;
+            border-collapse: collapse;
+            border-radius: 10px;
+            border:1px solid rgb(135, 167, 209);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+            padding: 14px;
+        }
+
+        td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        td img {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+        }
+
+        .edit-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 8px 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 5px;
+            display: inline-block;
+        }
+
+        .edit-btn:hover {
+            background-color: #218838;
+        }
+
+        .delete-form {
+            display: inline;
+        }
+
+        .delete-btn {
+            text-decoration: none;
+            background-color: #dc3545;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .delete-btn:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'myapp:owner_home' %}">Home</a>
+        <a href="{% url 'myapp:show_products' %}">Products</a>
+        <a href="{% url 'myapp:show_categories' %}">Categories</a>
+        <a href="{% url 'myapp:logout_owner' %}" class="logout">Logout</a>
+    </nav>
+    <h2 class="title">Manage Products</h2>
+
+    <!-- Button to Add Product -->
+    <div style="text-align: center;">
+        <a href="{% url 'myapp:add_product' %}" class="add-button">+ Add New Product</a>
+    </div>
+
+    <div class="table_Parent">
+        <table>
+            <tr>
+                <th>Product Name</th>
+                <th>Image</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Discount</th>
+                <th>Category</th>
+                <th>Action</th>
+            </tr>
+
+            {% for i in data %}
+            <tr>
+                <td>{{i.productName}}</td>
+                <td><img src="{{i.image.url}}" alt="Headphones"></td>
+                <td>{{i.productPrice}}</td>
+                <td>{{i.quantity}}</td>
+                <td>{{i.Discount}}</td>
+                <td>{{i.Category}}</td>
+                <td>
+                    <a href="{% url 'myapp:edit_product' i.id %}" class="edit-btn">Edit</a>
+                    <a href="{% url 'myapp:delete_product' i.id %}" class="delete-btn">Delete</a>
+                    
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+</body>
+</html>

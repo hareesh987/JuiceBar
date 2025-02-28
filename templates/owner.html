@@ -1,0 +1,184 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Welcome Page</title>
+    <style>
+        /* Reset and Base Styles */
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ::-webkit-scrollbar{
+            display:none;
+        }
+        @font-face {
+            font-family: PlayfairDisplayBold;
+            src: url('/static/font/PlayfairDisplaySC-Bold.ttf');
+            font-weight: normal;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            background:radial-gradient(circle at 0% 0%, #ffd1dc, transparent 50%),
+            radial-gradient(circle at 100% 0%, #b6e3e9, transparent 50%),
+            radial-gradient(circle at 100% 100%, #d4f0f0, transparent 50%),
+            radial-gradient(circle at 0% 100%, #ffefba, transparent 50%),
+            #f8f9fa;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+            gap: 5rem;
+            position: sticky;
+            font-family: PlayfairDisplayBold;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: #090110;
+            font-size: 1.5rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 500;
+            padding: 12px 20px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ffd1dc;
+            color: rgb(15, 14, 0);
+            transform: scale(1.05);
+        }
+
+        .logout {
+            background-color: #ffd1dc;
+            color: black;
+        }
+
+        .logout:hover {
+            background-color: #c82333;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            width: 80%;
+            height: 85vh;
+            background: url('/static/background_owner_login.jpg') no-repeat center center/cover;
+            filter:blur(0.2rem);
+            border-radius:2rem;
+        }
+
+        .hero-content {
+            position: relative;
+            text-align: center;
+            z-index: 1;
+        }
+
+        .hero-content h1 {
+            font-size: 5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color:black;
+            display: inline-block;
+            position: relative;
+        }
+        .hero-content h1::before {
+            content: attr(data);
+            position: absolute;
+            left: -2px; /* Adjust the offset */
+            top: 0;
+            color:lightpink; /* Highlight color */
+            z-index: -1;
+        }
+
+        .hero-content p {
+            font-size: 2rem;
+            color:black;
+            font-style: italic;
+            margin-bottom: 40px;
+        }
+
+        .hero-content a {
+            display: inline-block;
+            margin: 0 15px;
+            padding: 15px 30px;
+            font-size: 1.6rem;
+            font-weight:100;
+            color: black;
+            background-color:#b6e3e9;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero-content a:hover {
+            background-color:#ffd1dc;
+            transform: translateY(-5px);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-content h1 {
+                font-size: 36px;
+            }
+
+            .hero-content p {
+                font-size: 18px;
+            }
+
+            .hero-content a {
+                margin: 10px;
+                width: 80%;
+                font-size: 16px;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="{% url 'myapp:owner_home' %}">Home</a>
+        <a href="{% url 'myapp:show_products' %}">Products</a>
+        <a href="{% url 'myapp:show_categories' %}">Categories</a>
+        <a href="{% url 'myapp:logout_owner' %}" class="logout">Logout</a>
+    </nav>
+
+    <!-- Hero Section with Image -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 data="Welcome">Welcome</h1>
+            <p>Manage your products and categories with ease.</p>
+            <a href="{% url 'myapp:show_categories' %}">Manage Categories</a>
+            <a href="{% url 'myapp:show_products' %}">Manage Products</a>
+        </div>
+    </section>
+</body>
+</html>
